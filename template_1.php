@@ -7,7 +7,7 @@ get_header(); ?>
 
    <main>
 <!-- Section 1 Start -->
-<?php do_action('roman_home_function'); ?>
+        <?php do_action('roman_home_function'); ?>
 <!-- Section 1 End -->
 <!-- Section 2 Start -->
         <section class="profile">
