@@ -7,16 +7,7 @@ get_header(); ?>
 
    <main>
 <!-- Section 1 Start -->
-        <section class="hero">
-            <div class="container">
-                <div class="row h-100 justify-content-center align-items-center">
-                  <div class="col-12 text-center">
-                    <h1>Όνομα Επίθετο</h1>
-                    <p>Web Developer</p>
-                  </div>
-                </div>
-            </div>
-        </section>
+<?php do_action('roman_home_function'); ?>
 <!-- Section 1 End -->
 <!-- Section 2 Start -->
         <section class="profile">
